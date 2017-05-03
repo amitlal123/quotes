@@ -1,0 +1,53 @@
+.container{
+  text-align: center;
+}
+.quoteRow {
+  text-align: center;
+  box-shadow: 12px 12px 4px 6px gray;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid gray;
+}
+
+/*.topQuoteH2 {
+  margin-top: 50px;
+}*/
+
+.quoteRow button {
+  margin-right:20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+#addBtn{
+  border: 1px solid gray;
+  margin-top: 15px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .inputHead{
+    padding-left: 40px;
+  }
+  .inputAuthor{
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .inputHead{
+    padding-left: 50px;
+  }
+  .quoteAdd button {
+    margin-top: 7px;
+    margin-right: 75px;
+  }
+
+}
+
+textarea {
+  border: 1px solid gray;
+}
+
+input{
+  border: 1px solid gray;
+}
